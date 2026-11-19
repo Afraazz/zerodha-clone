@@ -1,0 +1,91 @@
+
+/* Hero section */
+.hero {
+  width: 100%;
+  padding: 45px 20px 60px;
+  background-color: #ffffff;
+}
+
+.hero-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Hero image */
+.hero-image {
+  width: 100%;
+  max-width: 780px;
+  margin-bottom: 45px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Hero content */
+.hero-content h1 {
+  font-size: 44px;
+  font-weight: 500;
+  color: #424242;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+
+/* Signup button */
+.hero-button {
+  display: inline-block;
+  background-color: #387ed1;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 3px;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+.hero-button:hover {
+  background-color: #222222;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .hero {
+    padding: 35px 18px 45px;
+  }
+
+  .hero-image {
+    margin-bottom: 30px;
+  }
+
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-content p {
+    font-size: 17px;
+  }
+
+  .hero-button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 27px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+}
