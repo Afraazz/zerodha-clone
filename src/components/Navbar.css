@@ -58,7 +58,7 @@
 
 /* Hamburger menu */
 .menu-toggle {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   gap: 4px;
@@ -77,6 +77,11 @@
 
 /* Mobile layout */
 @media (max-width: 768px) {
+.menu-toggle {
+  display: flex;
+  cursor: pointer;
+}
+
   .navbar-container {
     padding: 0 18px;
   }

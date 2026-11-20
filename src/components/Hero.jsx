@@ -21,9 +21,13 @@ function Hero() {
             mutual funds, ETFs, bonds and more.
           </p>
 
-          <a href="#signup" className="hero-button">
-            Sign up now
-          </a>
+          <a
+  href="https://signup.zerodha.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Sign up now
+</a>
         </div>
 
       </div>

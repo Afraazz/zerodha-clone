@@ -5,7 +5,7 @@ import "./Sections.css";
 
 function Sections() {
   return (
-    <section className="features">
+    <section className="features" id="products">
       <div className="features-container">
 
         <h2>Explore our investment options</h2>
@@ -19,7 +19,7 @@ function Sections() {
           ))}
         </div>
 
-        <div className="stats-section">
+        <div className="stats-section" id="pricing">
           <h2>Our Numbers</h2>
 
           <div className="stats-grid">

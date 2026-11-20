@@ -15,11 +15,49 @@ function Navbar() {
         </a>
 
         <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-          <a href="#signup" onClick={() => setMenuOpen(false)}>Signup</a>
-          <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
-          <a href="#products" onClick={() => setMenuOpen(false)}>Products</a>
-          <a href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
-          <a href="#support" onClick={() => setMenuOpen(false)}>Support</a>
+         <a
+  href="https://signup.zerodha.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMenuOpen(false)}
+>
+  Signup
+</a>
+          <a
+  href="https://zerodha.com/about/"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMenuOpen(false)}
+>
+  About
+</a>
+
+<a
+  href="https://zerodha.com/products/"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMenuOpen(false)}
+>
+  Products
+</a>
+
+<a
+  href="https://zerodha.com/charges/"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMenuOpen(false)}
+>
+  Pricing
+</a>
+
+<a
+  href="https://support.zerodha.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMenuOpen(false)}
+>
+  Support
+</a>
         </nav>
 
         <button
